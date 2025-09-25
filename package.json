@@ -1,0 +1,17 @@
+{
+  "name": "miao-whisper",
+  "version": "1.0.0",
+  "description": "A private whisper messaging system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "keywords": ["whisper", "private-messaging", "chat"],
+  "author": "",
+  "license": "MIT"
+}
